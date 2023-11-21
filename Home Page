@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<style>
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+    <title>HTML Project</title>
+</head>
+<body style="background-color:aliceblue;">
+
+<!--Kev_:)-->
+<h1 style="background-color:gainsboro;font-size:30px; color:navy;"> Introduction </h1>
+<p>
+    Made by: <a title="GitHub Profile" href=https://github.com/Crysipol target="_blank"> Kev </a> <br> 
+    Email: <a title="Email" href="mailto:kevin.paute88@myhunter.cuny.edu">Kevin.paute88@myhunter.cuny.edu</a> <br>
+    Last updated: <a title="Date last edited"style="color:cadetblue;">Nov 20, 2023</a><br>
+    <br>
+    This is a test Made by reading a bunch of instructions off the internet an hour ago.
+    This file will apply my knowledge that I gained and I will be updating the file soon.
+    <br>
+    - Kev :)
+    <img src="Cat_Camera.gif" alt="Cat looking at camera" class="center">
+</p>
+
+
+<hr>
+
+<h2 style="background-color:gainsboro;font-size:30px; color:navy;"> Hunter College</h2>
+<p>
+    <a style="color:blueviolet;"><b> This the test of the link the link for hunter colege can be found </b></a>
+    <a href=https://hunter.cuny.edu/ target="_blank"><b>here</b></a>
+    <pre>
+        <b>Hunter College Information:</b>
+        Address: 695 Park Ave, New York, NY 10065
+        Phone: (212) 772-4000
+        17,293 undergraduate students
+    </pre>
+</p>
+
+<hr>
+
+<h3 style="background-color:gainsboro;font-size:30px; color:navy;"> images</h3>
+<p style=text-align:center>
+    <b>Cat pics</b><br>
+    hello hello hello
+    
+</p>
+<button onclick="document.getElementById('Cat1Image').src='IMG_0159.jpeg'">Cat_Stare</button>
+<img id="Cat1Image" src="IMG_0149.jpeg" style="width:100px">
+<button onclick="document.getElementById('Cat1Image').src='IMG_0149.jpeg'">Cat_Scream</button>
+
+<hr>
+
+<h4 style="background-color:gainsboro;font-size:30px; color:navy;"> Breaks </h4>
+<p>
+    This is using <br> breaks and breaks <br> and move the words
+</p>
+
+<a title="Surprise :)" href=https://youtu.be/BbeeuzU5Qc8?si=hrdehDQG89m9wmrF target="_blank"><img src="spin-kitty-cat.gif" alt="epic vid" style="width:80px;height:80px;"></a> 
+<!--This creates a button that changes the words in "id="intro""-->
+<p id="Intro">This is my html test website. </p>
+<button type="button" onclick='document.getElementById("Intro").innerHTML = "This also uses JavaScript and css"'>Click Me!</button>
+</p>
+
+<button> Cat </button>
+<button> button button </button>
+</body>
+</html> 
